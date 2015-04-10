@@ -78,3 +78,166 @@
 2015-04-10 01:55:55.494 [notice] <0.293.0>@boss_compiler:compile:47 Compile file "/home/ten/Downloads/cb_tutorial/src/controller/cb_tutorial_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/ten/Downloads/cb_tutorial/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
 2015-04-10 01:55:55.510 [notice] <0.293.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
 2015-04-10 01:55:55.514 [info] <0.293.0> GET /greeting/list [cb_tutorial] 200 0ms
+2015-04-10 02:33:50.470 [notice] <0.297.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:33:50.471 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:33:50.472 [info] <0.297.0> Route: "/greeting/list"Url
+[]
+2015-04-10 02:33:50.477 [notice] <0.297.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2015-04-10 02:33:50.501 [info] <0.297.0> GET /greeting/list [cb_tutorial] 200 0ms
+2015-04-10 02:33:52.458 [notice] <0.300.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:33:52.459 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:33:52.460 [info] <0.300.0> Route: "/greeting/create"Url
+[]
+2015-04-10 02:33:52.463 [notice] <0.300.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2015-04-10 02:33:52.463 [notice] <0.300.0>@boss_controller_adapter_pmod:action:99 [ChicagoBoss] The function cb_tutorial_greeting_controller:create/2 is not exported, if in doubt add -export([create/2])) to the module
+2015-04-10 02:33:52.529 [info] <0.300.0> GET /greeting/create [cb_tutorial] 200 0ms
+2015-04-10 02:34:02.060 [notice] <0.303.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:34:02.070 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:34:02.071 [info] <0.303.0> Route: "/greeting/create"Url
+[]
+2015-04-10 02:34:02.074 [notice] <0.303.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2015-04-10 02:34:02.075 [notice] <0.303.0>@boss_controller_adapter_pmod:action:99 [ChicagoBoss] The function cb_tutorial_greeting_controller:create/2 is not exported, if in doubt add -export([create/2])) to the module
+2015-04-10 02:34:02.078 [info] <0.303.0> POST /greeting/create [cb_tutorial] 200 0ms
+2015-04-10 02:40:23.732 [notice] <0.305.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:40:23.745 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:40:23.745 [info] <0.305.0> Route: "/greeting/list"Url
+[]
+2015-04-10 02:40:23.747 [info] <0.305.0>@boss_controller_compiler:compile:59 Compile controller /home/ten/Downloads/cb_tutorial/src/controller/cb_tutorial_greeting_controller.erl
+2015-04-10 02:40:23.747 [notice] <0.305.0>@boss_compiler:compile:47 Compile file "/home/ten/Downloads/cb_tutorial/src/controller/cb_tutorial_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/ten/Downloads/cb_tutorial/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-04-10 02:40:23.763 [notice] <0.305.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2015-04-10 02:40:23.772 [info] <0.305.0> GET /greeting/list [cb_tutorial] 200 0ms
+2015-04-10 02:40:26.185 [notice] <0.308.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:40:26.190 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:40:26.191 [info] <0.308.0> Route: "/greeting/create"Url
+[]
+2015-04-10 02:40:26.194 [notice] <0.308.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2015-04-10 02:40:26.199 [info] <0.308.0> GET /greeting/create [cb_tutorial] 200 0ms
+2015-04-10 02:40:33.407 [notice] <0.310.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:40:33.416 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:40:33.417 [info] <0.310.0> Route: "/greeting/create"Url
+[]
+2015-04-10 02:40:33.421 [notice] <0.310.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2015-04-10 02:40:33.425 [info] <0.310.0> POST /greeting/create [cb_tutorial] 302 0ms
+2015-04-10 02:40:33.432 [notice] <0.312.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:40:33.433 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:40:33.434 [info] <0.312.0> Route: "/greeting/list"Url
+[]
+2015-04-10 02:40:33.437 [notice] <0.312.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2015-04-10 02:40:33.439 [info] <0.312.0> GET /greeting/list [cb_tutorial] 200 0ms
+2015-04-10 02:40:35.057 [notice] <0.314.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:40:35.069 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:40:35.070 [info] <0.314.0> Route: "/greeting/create"Url
+[]
+2015-04-10 02:40:35.073 [notice] <0.314.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2015-04-10 02:40:35.077 [info] <0.314.0> GET /greeting/create [cb_tutorial] 200 0ms
+2015-04-10 02:41:14.313 [notice] <0.317.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:41:14.314 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:41:14.315 [info] <0.317.0> Route: "/greeting/create"Url
+[]
+2015-04-10 02:41:14.319 [notice] <0.317.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2015-04-10 02:41:14.325 [info] <0.317.0> POST /greeting/create [cb_tutorial] 302 0ms
+2015-04-10 02:41:14.337 [notice] <0.319.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:41:14.337 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:41:14.339 [info] <0.319.0> Route: "/greeting/list"Url
+[]
+2015-04-10 02:41:14.342 [notice] <0.319.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2015-04-10 02:41:14.345 [info] <0.319.0> GET /greeting/list [cb_tutorial] 200 0ms
+2015-04-10 02:41:30.769 [notice] <0.321.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:41:30.770 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:41:30.771 [info] <0.321.0> Route: "/greeting/create"Url
+[]
+2015-04-10 02:41:30.775 [notice] <0.321.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2015-04-10 02:41:30.778 [info] <0.321.0> GET /greeting/create [cb_tutorial] 200 0ms
+2015-04-10 02:41:33.759 [notice] <0.323.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:41:33.760 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:41:33.761 [info] <0.323.0> Route: "/greeting/create"Url
+[]
+2015-04-10 02:41:33.765 [notice] <0.323.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2015-04-10 02:41:33.766 [info] <0.323.0> POST /greeting/create [cb_tutorial] 302 0ms
+2015-04-10 02:41:33.784 [notice] <0.325.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:41:33.785 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:41:33.786 [info] <0.325.0> Route: "/greeting/list"Url
+[]
+2015-04-10 02:41:33.790 [notice] <0.325.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2015-04-10 02:41:33.800 [info] <0.325.0> GET /greeting/list [cb_tutorial] 200 0ms
+2015-04-10 02:41:39.527 [notice] <0.327.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:41:39.529 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:41:39.529 [info] <0.327.0> Route: "/greeting/create"Url
+[]
+2015-04-10 02:41:39.532 [notice] <0.327.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2015-04-10 02:41:39.535 [info] <0.327.0> GET /greeting/create [cb_tutorial] 200 0ms
+2015-04-10 02:41:48.373 [notice] <0.330.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:41:48.374 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:41:48.375 [info] <0.330.0> Route: "/greeting/create"Url
+[]
+2015-04-10 02:41:48.378 [notice] <0.330.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2015-04-10 02:41:48.382 [info] <0.330.0> POST /greeting/create [cb_tutorial] 302 0ms
+2015-04-10 02:41:48.390 [notice] <0.332.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:41:48.391 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:41:48.392 [info] <0.332.0> Route: "/greeting/list"Url
+[]
+2015-04-10 02:41:48.395 [notice] <0.332.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2015-04-10 02:41:48.399 [info] <0.332.0> GET /greeting/list [cb_tutorial] 200 0ms
+2015-04-10 02:47:45.342 [notice] <0.335.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:47:45.342 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:47:45.344 [info] <0.335.0> Route: "/greeting/list"Url
+[]
+2015-04-10 02:47:45.347 [notice] <0.335.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2015-04-10 02:47:45.380 [info] <0.335.0> GET /greeting/list [cb_tutorial] 200 0ms
+2015-04-10 02:48:20.831 [notice] <0.338.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:48:20.832 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:48:20.834 [info] <0.338.0> Route: "/greeting/goodbye"Url
+[]
+2015-04-10 02:48:20.837 [notice] <0.338.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2015-04-10 02:48:20.838 [notice] <0.338.0>@boss_controller_adapter_pmod:action:99 [ChicagoBoss] The function cb_tutorial_greeting_controller:goodbye/2 is not exported, if in doubt add -export([goodbye/2])) to the module
+2015-04-10 02:48:20.842 [error] <0.338.0> POST /greeting/goodbye [cb_tutorial] 404 0ms
+2015-04-10 02:48:26.740 [notice] <0.340.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:48:26.741 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:48:26.742 [info] <0.340.0> Route: "/greeting/list"Url
+[]
+2015-04-10 02:48:26.754 [notice] <0.340.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2015-04-10 02:48:26.770 [info] <0.340.0> GET /greeting/list [cb_tutorial] 200 0ms
+2015-04-10 02:48:28.786 [notice] <0.342.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:48:28.792 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:48:28.793 [info] <0.342.0> Route: "/greeting/list"Url
+[]
+2015-04-10 02:48:28.797 [notice] <0.342.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2015-04-10 02:48:28.802 [info] <0.342.0> GET /greeting/list [cb_tutorial] 200 0ms
+2015-04-10 02:50:47.384 [notice] <0.344.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:50:47.386 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:50:47.386 [info] <0.344.0> Route: "/greeting/list"Url
+[]
+2015-04-10 02:50:47.388 [info] <0.344.0>@boss_controller_compiler:compile:59 Compile controller /home/ten/Downloads/cb_tutorial/src/controller/cb_tutorial_greeting_controller.erl
+2015-04-10 02:50:47.389 [notice] <0.344.0>@boss_compiler:compile:47 Compile file "/home/ten/Downloads/cb_tutorial/src/controller/cb_tutorial_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/ten/Downloads/cb_tutorial/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-04-10 02:50:47.406 [notice] <0.344.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2015-04-10 02:50:47.411 [info] <0.344.0> GET /greeting/list [cb_tutorial] 200 0ms
+2015-04-10 02:50:50.872 [notice] <0.347.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:50:50.873 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:50:50.875 [info] <0.347.0> Route: "/greeting/goodbye"Url
+[]
+2015-04-10 02:50:50.880 [notice] <0.347.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2015-04-10 02:50:50.885 [info] <0.347.0> POST /greeting/goodbye [cb_tutorial] 302 0ms
+2015-04-10 02:50:50.893 [notice] <0.349.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:50:50.895 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:50:50.895 [info] <0.349.0> Route: "/greeting/list"Url
+[]
+2015-04-10 02:50:50.898 [notice] <0.349.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2015-04-10 02:50:50.901 [info] <0.349.0> GET /greeting/list [cb_tutorial] 200 0ms
+2015-04-10 02:50:54.808 [notice] <0.351.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:50:54.811 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:50:54.812 [info] <0.351.0> Route: "/greeting/goodbye"Url
+[]
+2015-04-10 02:50:54.815 [notice] <0.351.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2015-04-10 02:50:54.820 [info] <0.351.0> POST /greeting/goodbye [cb_tutorial] 302 0ms
+2015-04-10 02:50:54.828 [notice] <0.353.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:50:54.829 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:50:54.830 [info] <0.353.0> Route: "/greeting/list"Url
+[]
+2015-04-10 02:50:54.833 [notice] <0.353.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2015-04-10 02:50:54.837 [info] <0.353.0> GET /greeting/list [cb_tutorial] 200 0ms
+2015-04-10 02:50:58.668 [notice] <0.355.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 02:50:58.670 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 02:50:58.671 [info] <0.355.0> Route: "/greeting/list"Url
+[]
+2015-04-10 02:50:58.674 [notice] <0.355.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2015-04-10 02:50:58.679 [info] <0.355.0> GET /greeting/list [cb_tutorial] 200 0ms

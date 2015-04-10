@@ -54,3 +54,5 @@
      Reason:     {{function_clause,[{boss_db_mock_controller,match_cond,[{greeting,"greeting-1","Hello, World!"},[{greeting_text,gtt,"^Hellespont"}]],[{file,"src/boss_db_mock_controller.erl"},{line,121}]},{dict,filter_bucket,4,[{file,"dict.erl"},{line,475}]},{dict,filter_bkt_list,4,[{file,"dict.erl"},{line,469}]},{dict,filter_seg_list,4,[{file,"dict.erl"},{line,463}]},{dict,filter_dict,2,[{file,"dict.erl"},{line,458}]},{boss_db_mock_controller,do_find,7,[{file,"src/boss_db_mock_controller.erl"},{line,112}]},{boss_db_mock_controller,handle_call,3,[{file,"src/boss_db_mock_controller.erl"},{line,24}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]}]},{gen_server,call,[{global,boss_db_mock},{find,greeting,[{greeting_text,gtt,"^Hellespont"}],all,0,id,ascending}]}}
      Offender:   [{pid,<0.103.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
 
+2015-04-10 02:48:20 =ERROR REPORT====
+POST /greeting/goodbye [cb_tutorial] 404 0ms
