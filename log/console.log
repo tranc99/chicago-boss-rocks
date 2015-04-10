@@ -1,0 +1,80 @@
+2015-04-10 00:35:38.805 [notice] <0.308.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 00:35:38.809 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 00:35:38.811 [info] <0.308.0> Route: "/greeting/study"Url
+[]
+2015-04-10 00:35:38.845 [notice] <0.308.0>@boss_compiler:compile:47 Compile file "/home/ten/Downloads/cb_tutorial/src/model/greeting.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/home/ten/Downloads/cb_tutorial/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-04-10 00:35:38.845 [info] <0.308.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{1,1}},{atom,{1,2},module},{'(',{1,8}},{atom,{1,9},greeting},{',',{1,17}},{'[',{1,19}},{var,{1,20},'Id'},{',',{1,22}},{var,{1,24},'GreetingText'},{']',{1,36}},{')',{1,37}},{dot,{1,38}},{'-',{2,1}},{atom,{2,2},compile},{'(',{2,9}},{atom,{2,10},export_all},{')',{2,20}},{dot,{2,21}},{eof,{4,1}}]
+2015-04-10 00:35:38.846 [notice] <0.308.0>@boss_record_compiler:make_generated_forms:225 Module "greeting" Parameters ['Id','GreetingText'] Attributes[{compile,export_all}]
+2015-04-10 00:35:38.868 [notice] <0.308.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2015-04-10 00:35:38.878 [info] <0.308.0> GET /greeting/study [cb_tutorial] 200 0ms
+2015-04-10 00:43:37.206 [notice] <0.319.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 00:43:37.228 [info] <0.319.0> GET /doc/ [cb_tutorial] 200 0ms
+2015-04-10 00:43:51.422 [notice] <0.321.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 00:43:51.424 [info] <0.321.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{1,1}},{atom,{1,2},module},{'(',{1,8}},{atom,{1,9},greeting},{',',{1,17}},{'[',{1,19}},{var,{1,20},'Id'},{',',{1,22}},{var,{1,24},'GreetingText'},{']',{1,36}},{')',{1,37}},{dot,{1,38}},{'-',{2,1}},{atom,{2,2},compile},{'(',{2,9}},{atom,{2,10},export_all},{')',{2,20}},{dot,{2,21}},{eof,{4,1}}]
+2015-04-10 00:43:51.424 [notice] <0.321.0>@boss_record_compiler:make_generated_forms:225 Module "greeting" Parameters ['Id','GreetingText'] Attributes[{compile,export_all}]
+2015-04-10 00:43:51.959 [info] <0.321.0> GET /doc/greeting [cb_tutorial] 200 0ms
+2015-04-10 01:33:04.925 [error] <0.97.0> gen_server boss_db_mock terminated with reason: no function clause matching boss_db_mock_controller:match_cond({greeting,"greeting-1","Hello, World!"}, [{greeting_text,gtt,"^Hellespont"}]) line 121
+2015-04-10 01:33:04.926 [error] <0.97.0> CRASH REPORT Process <0.97.0> with 0 neighbours exited with reason: no function clause matching boss_db_mock_controller:match_cond({greeting,"greeting-1","Hello, World!"}, [{greeting_text,gtt,"^Hellespont"}]) line 121 in gen_server:terminate/7 line 804
+2015-04-10 01:33:04.926 [error] <0.96.0> Supervisor {global,boss_db_mock_sup} had child db_mock_controller started with boss_db_mock_controller:start_link([]) at <0.97.0> exit with reason no function clause matching boss_db_mock_controller:match_cond({greeting,"greeting-1","Hello, World!"}, [{greeting_text,gtt,"^Hellespont"}]) line 121 in context child_terminated
+2015-04-10 01:33:04.927 [error] <0.103.0> gen_server <0.103.0> terminated with reason: {{function_clause,[{boss_db_mock_controller,match_cond,[{greeting,"greeting-1","Hello, World!"},[{greeting_text,gtt,"^Hellespont"}]],[{file,"src/boss_db_mock_controller.erl"},{line,121}]},{dict,filter_bucket,4,[{file,"dict.erl"},{line,475}]},{dict,filter_bkt_list,4,[{file,"dict.erl"},{line,469}]},{dict,filter_seg_list,4,[{file,"dict.erl"},{line,463}]},{dict,filter_dict,2,[{file,"dict.erl"},{line,458}]},{boss_db_mock_controller,do_find,7,[{file,"src/boss_db_mock_controller.erl"},{line,112}]},...]},...} in gen_server:call/2 line 182
+2015-04-10 01:33:04.927 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 0 neighbours exited with reason: {{function_clause,[{boss_db_mock_controller,match_cond,[{greeting,"greeting-1","Hello, World!"},[{greeting_text,gtt,"^Hellespont"}]],[{file,"src/boss_db_mock_controller.erl"},{line,121}]},{dict,filter_bucket,4,[{file,"dict.erl"},{line,475}]},{dict,filter_bkt_list,4,[{file,"dict.erl"},{line,469}]},{dict,filter_seg_list,4,[{file,"dict.erl"},{line,463}]},{dict,filter_dict,2,[{file,"dict.erl"},{line,458}]},{boss_db_mock_controller,do_find,7,[{file,"src/boss_db_mock_controller.erl"},{line,112}]},...]},...} in gen_server:terminate/7 line 804
+2015-04-10 01:33:04.928 [error] <0.100.0> Supervisor {<0.100.0>,poolboy_sup} had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.103.0> exit with reason {{function_clause,[{boss_db_mock_controller,match_cond,[{greeting,"greeting-1","Hello, World!"},[{greeting_text,gtt,"^Hellespont"}]],[{file,"src/boss_db_mock_controller.erl"},{line,121}]},{dict,filter_bucket,4,[{file,"dict.erl"},{line,475}]},{dict,filter_bkt_list,4,[{file,"dict.erl"},{line,469}]},{dict,filter_seg_list,4,[{file,"dict.erl"},{line,463}]},{dict,filter_dict,2,[{file,"dict.erl"},{line,458}]},{boss_db_mock_controller,do_find,7,[{file,"src/boss_db_mock_controller.erl"},{line,112}]},...]},...} in context child_terminated
+2015-04-10 01:34:48.297 [notice] <0.341.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 01:34:48.301 [info] <0.341.0> GET /doc/ [cb_tutorial] 200 0ms
+2015-04-10 01:34:50.806 [notice] <0.342.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 01:34:50.810 [info] <0.342.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{1,1}},{atom,{1,2},module},{'(',{1,8}},{atom,{1,9},greeting},{',',{1,17}},{'[',{1,19}},{var,{1,20},'Id'},{',',{1,22}},{var,{1,24},'GreetingText'},{']',{1,36}},{')',{1,37}},{dot,{1,38}},{'-',{2,1}},{atom,{2,2},compile},{'(',{2,9}},{atom,{2,10},export_all},{')',{2,20}},{dot,{2,21}},{eof,{4,1}}]
+2015-04-10 01:34:50.811 [notice] <0.342.0>@boss_record_compiler:make_generated_forms:225 Module "greeting" Parameters ['Id','GreetingText'] Attributes[{compile,export_all}]
+2015-04-10 01:34:50.854 [info] <0.342.0> GET /doc/greeting [cb_tutorial] 200 0ms
+2015-04-10 01:37:06.666 [notice] <0.63.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2015-04-10 01:37:06.802 [info] <0.7.0> Application lager started on node cb_tutorial@MacBook
+2015-04-10 01:37:06.821 [info] <0.7.0> Application crypto started on node cb_tutorial@MacBook
+2015-04-10 01:37:06.846 [info] <0.7.0> Application mimetypes started on node cb_tutorial@MacBook
+2015-04-10 01:37:06.930 [info] <0.95.0> Starting Boss in development mode....
+
+2015-04-10 01:37:06.948 [info] <0.95.0>@boss_db:start:77 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-04-10 01:37:07.053 [info] <0.95.0> Starting master services on cb_tutorial@MacBook
+
+2015-04-10 01:37:07.081 [info] <0.7.0> Application tinymq started on node cb_tutorial@MacBook
+2015-04-10 01:37:07.130 [info] <0.95.0> SSL:[]
+
+2015-04-10 01:37:07.136 [info] <0.95.0> Starting cowboy... on cb_tutorial@MacBook
+
+2015-04-10 01:37:07.144 [info] <0.7.0> Application cowlib started on node cb_tutorial@MacBook
+2015-04-10 01:37:07.151 [info] <0.7.0> Application ranch started on node cb_tutorial@MacBook
+2015-04-10 01:37:07.176 [info] <0.7.0> Application cowboy started on node cb_tutorial@MacBook
+2015-04-10 01:37:07.176 [info] <0.95.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-04-10 01:37:07.298 [info] <0.95.0>@boss_load:load_all_modules:57 Loading application cb_tutorial
+2015-04-10 01:37:07.327 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/ten/Downloads/cb_tutorial/src/mail/cb_tutorial_outgoing_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/home/ten/Downloads/cb_tutorial/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-04-10 01:37:07.389 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/ten/Downloads/cb_tutorial/src/mail/cb_tutorial_incoming_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/home/ten/Downloads/cb_tutorial/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-04-10 01:37:07.418 [info] <0.95.0>@boss_controller_compiler:compile:59 Compile controller /home/ten/Downloads/cb_tutorial/src/controller/cb_tutorial_greeting_controller.erl
+2015-04-10 01:37:07.419 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/ten/Downloads/cb_tutorial/src/controller/cb_tutorial_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/ten/Downloads/cb_tutorial/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-04-10 01:37:07.456 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/ten/Downloads/cb_tutorial/src/model/greeting.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/home/ten/Downloads/cb_tutorial/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-04-10 01:37:07.456 [info] <0.95.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{1,1}},{atom,{1,2},module},{'(',{1,8}},{atom,{1,9},greeting},{',',{1,17}},{'[',{1,19}},{var,{1,20},'Id'},{',',{1,22}},{var,{1,24},'GreetingText'},{']',{1,36}},{')',{1,37}},{dot,{1,38}},{'-',{2,1}},{atom,{2,2},compile},{'(',{2,9}},{atom,{2,10},export_all},{')',{2,20}},{dot,{2,21}},{eof,{4,1}}]
+2015-04-10 01:37:07.457 [notice] <0.95.0>@boss_record_compiler:make_generated_forms:225 Module "greeting" Parameters ['Id','GreetingText'] Attributes[{compile,export_all}]
+2015-04-10 01:37:07.515 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/ten/Downloads/cb_tutorial/src/view/lib/tag_modules/cb_tutorial_custom_tags.erl" with options [{out_dir,undefined},{include_dirs,["/home/ten/Downloads/cb_tutorial/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-04-10 01:37:07.540 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/ten/Downloads/cb_tutorial/src/view/lib/filter_modules/cb_tutorial_custom_filters.erl" with options [{out_dir,undefined},{include_dirs,["/home/ten/Downloads/cb_tutorial/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-04-10 01:37:07.544 [info] <0.95.0>@boss_load:compile_view_dir_erlydtl:308 Compile Modules "src/view/lib/tag_html"  cb_tutorial_view_lib_tags
+2015-04-10 01:37:07.673 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/ten/Downloads/cb_tutorial/priv/init/cb_tutorial_01_news.erl" with options [{include_dirs,["/home/ten/Downloads/cb_tutorial/include"]}] 
+2015-04-10 01:37:17.024 [notice] <0.275.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 01:37:17.030 [warning] <0.6.0> lager_error_logger_h dropped 33 messages in the last second that exceeded the limit of 50 messages/sec
+2015-04-10 01:37:17.030 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 01:37:17.031 [info] <0.275.0> Route: "/greeting/study"Url
+[]
+2015-04-10 01:37:17.058 [notice] <0.275.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2015-04-10 01:37:17.084 [info] <0.275.0> GET /greeting/study [cb_tutorial] 200 0ms
+2015-04-10 01:49:31.266 [notice] <0.288.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 01:49:31.267 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 01:49:31.269 [info] <0.288.0> Route: "/greeting/list"Url
+[]
+2015-04-10 01:49:31.273 [notice] <0.288.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2015-04-10 01:49:31.273 [notice] <0.288.0>@boss_controller_adapter_pmod:action:99 [ChicagoBoss] The function cb_tutorial_greeting_controller:list/2 is not exported, if in doubt add -export([list/2])) to the module
+2015-04-10 01:49:31.317 [info] <0.288.0> GET /greeting/list [cb_tutorial] 200 0ms
+2015-04-10 01:55:55.482 [notice] <0.293.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_tutorial
+2015-04-10 01:55:55.490 [info] <0.262.0> Loading routes from "/home/ten/Downloads/cb_tutorial/priv/cb_tutorial.routes" ....
+2015-04-10 01:55:55.491 [info] <0.293.0> Route: "/greeting/list"Url
+[]
+2015-04-10 01:55:55.493 [info] <0.293.0>@boss_controller_compiler:compile:59 Compile controller /home/ten/Downloads/cb_tutorial/src/controller/cb_tutorial_greeting_controller.erl
+2015-04-10 01:55:55.494 [notice] <0.293.0>@boss_compiler:compile:47 Compile file "/home/ten/Downloads/cb_tutorial/src/controller/cb_tutorial_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/ten/Downloads/cb_tutorial/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-04-10 01:55:55.510 [notice] <0.293.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2015-04-10 01:55:55.514 [info] <0.293.0> GET /greeting/list [cb_tutorial] 200 0ms

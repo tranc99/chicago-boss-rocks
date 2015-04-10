@@ -1,0 +1,8 @@
+{application, cb_tutorial, [
+        {description, "Simple web app to entertain cats, say."},
+        {vsn, "0.0.2"},
+        {modules, []},
+        {registered, []},
+        {applications, [kernel, stdlib, crypto]},
+        {env, []}
+    ]}.

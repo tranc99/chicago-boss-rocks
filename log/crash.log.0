@@ -1,0 +1,5 @@
+2015-04-09 23:30:19 =ERROR REPORT====
+GET / [cb_tutorial] 404 0ms2015-04-09 23:30:35 =ERROR REPORT====
+GET /hello [cb_tutorial] 404 0ms2015-04-09 23:30:52 =ERROR REPORT====
+GET /cb_tutorial_greeting/hello [cb_tutorial] 404 0ms2015-04-09 23:42:21 =ERROR REPORT====
+GET /greeting/study [cb_tutorial] 404 0ms
